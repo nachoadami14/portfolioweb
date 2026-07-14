@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO -->
+  <title>Vertex Project | Agencia de Automatización con IA</title>
+  <meta name="description" content="Vertex Project desarrolla sistemas de automatización inteligentes con IA que eliminan tareas repetitivas, integran herramientas de negocio y ayudan a las empresas a operar a la velocidad de la IA. Reserva una llamada de diagnóstico gratuita.">
+  <meta name="keywords" content="agencia de automatización con IA, automatización de negocios, chatbots de IA, automatización de flujos de trabajo, automatización de CRM, n8n, Make, Zapier, OpenAI, agentes de voz con IA">
+  <meta name="author" content="Vertex Project">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vertex Project | Agencia de Automatización con IA">
+  <meta property="og:description" content="Sistemas de automatización inteligentes que eliminan tareas repetitivas y ayudan a tu negocio a operar a la velocidad de la IA.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vertexproject.ai">
+  <meta property="og:site_name" content="Vertex Project">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Vertex Project | Agencia de Automatización con IA">
+  <meta name="twitter:description" content="Sistemas de automatización inteligentes que eliminan tareas repetitivas y ayudan a tu negocio a operar a la velocidad de la IA.">
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Vertex Project",
+    "description": "Agencia de Automatización con IA que diseña sistemas inteligentes que eliminan tareas repetitivas",
+    "email": "info.vertex.project@gmail.com",
+    "serviceType": ["Chatbots de IA", "Automatización de Negocios", "Automatización de CRM", "Optimización de Flujos de Trabajo"]
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Logo_Vertex.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div id="preloader" aria-hidden="true">
+    <div class="preloader-inner">
+      <img src="Logo_Vertex.png" alt="Vertex Project Logo" class="preloader-logo" aria-hidden="true">
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar navbar-expand-lg" id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="container-xl">
+      <a class="navbar-brand" href="#hero" aria-label="Inicio de Vertex Project">
+        <img src="Logo_Vertex.png" alt="" class="nav-logo-mark" aria-hidden="true">
+        <span class="nav-brand-text">Vertex <span class="nav-brand-accent">Project</span></span>
+      </a>
+
+      <!-- Mobile: CTA + lang switch (replaces hamburger) -->
+      <div class="mobile-nav-actions d-lg-none">
+        <a href="#contact" class="btn-mobile-cta">
+          <i class="fas fa-phone" aria-hidden="true"></i>
+          <span data-i18n="mobile_cta">Contacto</span>
+        </a>
+        <div class="lang-switch" role="group" aria-label="Idioma / Language">
+          <button class="lang-btn lang-btn-es active" data-lang="es" aria-label="Español">ES</button>
+          <button class="lang-btn lang-btn-en" data-lang="en" aria-label="English">EN</button>
+        </div>
+      </div>
+
+      <!-- Desktop nav -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1" role="list">
+          <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav_services">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process" data-i18n="nav_process">Proceso</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects" data-i18n="nav_projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav_about">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn-nav-cta" href="#contact" data-i18n="nav_cta">Reservar Llamada</a>
+          </li>
+          <li class="nav-item ms-lg-2">
+            <div class="lang-switch" role="group" aria-label="Idioma / Language">
+              <button class="lang-btn lang-btn-es active" data-lang="es" aria-label="Español">ES</button>
+              <button class="lang-btn lang-btn-en" data-lang="en" aria-label="English">EN</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero" class="hero" aria-labelledby="hero-headline">
+    <canvas id="particles-canvas" aria-hidden="true"></canvas>
+    <div class="hero-grid-bg" aria-hidden="true"></div>
+    <div class="hero-radial-glow" aria-hidden="true"></div>
+
+    <div class="container-xl">
+      <div class="hero-inner">
+
+        <!-- Left: Text -->
+        <div class="hero-text reveal">
+          <div class="hero-badge" aria-label="Categoría">
+            <span class="badge-dot" aria-hidden="true"></span>
+            <span data-i18n="hero_badge">Agencia de Automatización con IA</span>
+          </div>
+
+          <h1 class="hero-headline" id="hero-headline">
+            <span data-i18n="hero_headline_static">Automatiza tu Negocio.</span><br>
+            <span class="headline-gradient" id="typed-text"></span>
+          </h1>
+
+          <p class="hero-description" data-i18n="hero_desc">
+            Diseñamos sistemas de automatización inteligentes que eliminan tareas repetitivas, integran tus herramientas y ayudan a tu negocio a operar a la velocidad de la IA, para que tu equipo se enfoque en lo que realmente importa.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#contact" class="btn-primary" aria-label="Reservar una llamada de diagnóstico gratuita">
+              <i class="fas fa-calendar-check" aria-hidden="true"></i>
+              <span data-i18n="hero_cta_primary">Reservar Llamada Gratis</span>
+            </a>
+            <a href="#projects" class="btn-secondary" aria-label="Ver nuestros proyectos">
+              <span data-i18n="hero_cta_secondary">Ver Proyectos</span>
+              <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="hero-social-proof" aria-label="Prueba social">
+            <div class="proof-avatars" aria-hidden="true">
+              <div class="proof-avatar pa-1">M</div>
+              <div class="proof-avatar pa-2">S</div>
+              <div class="proof-avatar pa-3">J</div>
+            </div>
+            <span data-i18n-html="hero_social_proof">De la confianza de <strong>más de 20</strong> empresas en todo el mundo</span>
+          </div>
+        </div>
+
+        <!-- Right: AI Visualization -->
+        <div class="hero-visual reveal reveal-right" aria-hidden="true">
+          <div class="vis-container">
+
+            <!-- Rings -->
+            <div class="vis-ring vis-ring-outer"></div>
+            <div class="vis-ring vis-ring-mid"></div>
+            <div class="vis-ring vis-ring-inner"></div>
+
+            <!-- SVG connection lines -->
+            <svg class="vis-connections" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="line-glow">
+                  <feGaussianBlur stdDeviation="1.5" result="blur"/>
+                  <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                </filter>
+              </defs>
+              <line class="conn-line" x1="250" y1="250" x2="250" y2="70" filter="url(#line-glow)"/>
+              <line class="conn-line" x1="250" y1="250" x2="406" y2="160" filter="url(#line-glow)"/>
+              <line class="conn-line" x1="250" y1="250" x2="406" y2="340" filter="url(#line-glow)"/>
+              <line class="conn-line" x1="250" y1="250" x2="250" y2="430" filter="url(#line-glow)"/>
+              <line class="conn-line" x1="250" y1="250" x2="94" y2="340" filter="url(#line-glow)"/>
+              <line class="conn-line" x1="250" y1="250" x2="94" y2="160" filter="url(#line-glow)"/>
+            </svg>
+
+            <!-- Central Hub -->
+            <div class="vis-hub">
+              <div class="hub-glow"></div>
+              <div class="hub-ring hub-ring-a"></div>
+              <div class="hub-ring hub-ring-b"></div>
+              <div class="hub-core">
+                <img src="Logo_Vertex.png" alt="Vertex Project Logo" style="width: 42px; height: 42px; object-fit: contain;">
+              </div>
+            </div>
+
+            <!-- Peripheral Nodes -->
+            <div class="vis-node vis-node-1" title="Machine Learning">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="vis-node vis-node-2" title="Integración de APIs">
+              <i class="fas fa-plug"></i>
+            </div>
+            <div class="vis-node vis-node-3" title="Motor de Flujos">
+              <i class="fas fa-diagram-project"></i>
+            </div>
+            <div class="vis-node vis-node-4" title="Lenguaje Natural">
+              <i class="fas fa-comment-dots"></i>
+            </div>
+            <div class="vis-node vis-node-5" title="Analíticas">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="vis-node vis-node-6" title="Automatización">
+              <i class="fas fa-robot"></i>
+            </div>
+
+            <!-- Floating Metric Cards -->
+            <div class="float-card float-card-1">
+              <div class="fc-icon"><i class="fas fa-bolt"></i></div>
+              <div class="fc-text">
+                <strong>10K+</strong>
+                <span data-i18n="hero_card_hours">Horas Ahorradas</span>
+              </div>
+            </div>
+            <div class="float-card float-card-2">
+              <div class="fc-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="fc-text">
+                <strong>150+</strong>
+                <span data-i18n="hero_card_automations">Automatizaciones</span>
+              </div>
+            </div>
+            <div class="float-card float-card-3">
+              <div class="fc-icon"><i class="fas fa-check-circle"></i></div>
+              <div class="fc-text">
+                <strong>99.9%</strong>
+                <span>Uptime SLA</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TECHNOLOGIES ===================== -->
+  <section id="technologies" class="section-technologies" aria-labelledby="tech-label">
+    <div class="container-xl">
+      <p class="tech-label" id="tech-label" data-i18n="tech_label">Tecnologías en las que confiamos</p>
+    </div>
+    <div class="tech-track-wrapper" aria-label="Tecnologías con las que trabajamos">
+      <div class="tech-fade tech-fade-left" aria-hidden="true"></div>
+      <div class="tech-track" role="list">
+        <div class="tech-inner" aria-hidden="true">
+          <!-- Duplicated for seamless loop -->
+          <div class="tech-badge" role="listitem"><i class="fas fa-circle-nodes"></i><span>OpenAI</span></div>
+          <div class="tech-badge"><i class="fas fa-microchip"></i><span>Claude</span></div>
+          <div class="tech-badge"><i class="fas fa-network-wired"></i><span>n8n</span></div>
+          <div class="tech-badge"><i class="fas fa-gears"></i><span>Make</span></div>
+          <div class="tech-badge"><i class="fas fa-bolt"></i><span>Zapier</span></div>
+          <div class="tech-badge"><i class="fab fa-google"></i><span>Google Workspace</span></div>
+          <div class="tech-badge"><i class="fas fa-handshake"></i><span>HubSpot</span></div>
+          <div class="tech-badge"><i class="fab fa-slack"></i><span>Slack</span></div>
+          <div class="tech-badge"><i class="fab fa-whatsapp"></i><span>WhatsApp API</span></div>
+          <div class="tech-badge"><i class="fas fa-table-cells-large"></i><span>Notion</span></div>
+          <div class="tech-badge"><i class="fas fa-database"></i><span>Airtable</span></div>
+          <div class="tech-badge"><i class="fas fa-server"></i><span>Supabase</span></div>
+          <div class="tech-badge"><i class="fab fa-stripe-s"></i><span>Stripe</span></div>
+          <!-- Duplicate for loop -->
+          <div class="tech-badge"><i class="fas fa-circle-nodes"></i><span>OpenAI</span></div>
+          <div class="tech-badge"><i class="fas fa-microchip"></i><span>Claude</span></div>
+          <div class="tech-badge"><i class="fas fa-network-wired"></i><span>n8n</span></div>
+          <div class="tech-badge"><i class="fas fa-gears"></i><span>Make</span></div>
+          <div class="tech-badge"><i class="fas fa-bolt"></i><span>Zapier</span></div>
+          <div class="tech-badge"><i class="fab fa-google"></i><span>Google Workspace</span></div>
+          <div class="tech-badge"><i class="fas fa-handshake"></i><span>HubSpot</span></div>
+          <div class="tech-badge"><i class="fab fa-slack"></i><span>Slack</span></div>
+          <div class="tech-badge"><i class="fab fa-whatsapp"></i><span>WhatsApp API</span></div>
+          <div class="tech-badge"><i class="fas fa-table-cells-large"></i><span>Notion</span></div>
+          <div class="tech-badge"><i class="fas fa-database"></i><span>Airtable</span></div>
+          <div class="tech-badge"><i class="fas fa-server"></i><span>Supabase</span></div>
+          <div class="tech-badge"><i class="fab fa-stripe-s"></i><span>Stripe</span></div>
+        </div>
+      </div>
+      <div class="tech-fade tech-fade-right" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section-about section-pad" aria-labelledby="about-title">
+    <div class="container-xl">
+      <div class="row g-5 align-items-center">
+
+        <div class="col-lg-6 reveal">
+          <span class="section-label" data-i18n="about_label">Sobre Nosotros</span>
+          <h2 class="section-title" id="about-title" data-i18n-html="about_title">
+            Construyendo el Futuro de la<br>
+            <span class="text-gradient">Inteligencia de Negocios</span>
+          </h2>
+          <p class="section-body" data-i18n="about_body_1">
+            Vertex Project es una agencia de automatización con IA que diseña y desarrolla sistemas inteligentes para transformar la manera en que operan las empresas. Eliminamos flujos de trabajo repetitivos, integramos herramientas fragmentadas y desplegamos soluciones de IA que escalan.
+          </p>
+          <p class="section-body mt-3" data-i18n="about_body_2">
+            Trabajamos de la mano con fundadores, equipos de operaciones y clientes corporativos para identificar oportunidades de automatización y ofrecer resultados medibles: respuestas más rápidas, reducción de costos y crecimiento en la facturación.
+          </p>
+          <div class="about-tags mt-4">
+            <span class="tag" data-i18n="about_tag_1">Soluciones a Medida</span>
+            <span class="tag" data-i18n="about_tag_2">Seguridad Empresarial</span>
+            <span class="tag" data-i18n="about_tag_3">Entrega Rápida</span>
+            <span class="tag" data-i18n="about_tag_4">Sistemas Escalables</span>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="stats-grid reveal reveal-right">
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-folder-open"></i></div>
+              <div class="stat-value">
+                <div class="stat-suffix">+</div>
+                <div class="stat-number" data-target="30">0</div>
+              </div>
+              <div class="stat-label" data-i18n="stat_label_projects">Proyectos Entregados</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-users"></i></div>
+              <div class="stat-value">
+                <div class="stat-suffix">+</div>
+                <div class="stat-number" data-target="20">0</div>
+              </div>
+              <div class="stat-label" data-i18n="stat_label_clients">Clientes Satisfechos</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon"><i class="fas fa-robot"></i></div>
+              <div class="stat-value">
+                <div class="stat-suffix">+</div>
+                <div class="stat-number" data-target="150">0</div>
+              </div>
+              <div class="stat-label" data-i18n="stat_label_automations">Automatizaciones Creadas</div>
+            </div>
+            <div class="stat-card stat-card-accent">
+              <div class="stat-icon"><i class="fas fa-clock"></i></div>
+              <div class="stat-value">
+                <div class="stat-suffix">+</div>
+                <div class="stat-number" data-target="10">0</div>
+                <div class="stat-unit">K</div>
+              </div>
+              <div class="stat-label" data-i18n="stat_label_hours">Horas Ahorradas</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services" class="section-services section-pad" aria-labelledby="services-title">
+    <div class="container-xl">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="services_label">Qué Construimos</span>
+        <h2 class="section-title" id="services-title" data-i18n-html="services_title">
+          Servicios de IA que<br>
+          <span class="text-gradient">Impulsan Resultados Reales</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="services_subtitle">
+          Desde chatbots inteligentes hasta complejos motores de flujo de trabajo: creamos sistemas de automatización adaptados a tu negocio.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-comments" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc1_title">Chatbots de IA</h3>
+          <p class="sc-desc" data-i18n="svc1_desc">Bots conversacionales inteligentes que atienden consultas de clientes las 24/7 con precisión humana.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-microphone-alt" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc2_title">Agentes de Voz con IA</h3>
+          <p class="sc-desc" data-i18n="svc2_desc">Agentes de voz con sonido natural que reservan citas, responden llamadas y califican leads automáticamente.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-network-wired" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc3_title">Automatización de Negocios</h3>
+          <p class="sc-desc" data-i18n="svc3_desc">Automatización de extremo a extremo de procesos comerciales repetitivos en diferentes departamentos y plataformas.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-address-book" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc4_title">Automatización de CRM</h3>
+          <p class="sc-desc" data-i18n="svc4_desc">Automatiza todo tu flujo de CRM: desde el ingreso de datos hasta el seguimiento y la progresión de etapas del trato.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-filter" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc5_title">Calificación de Leads</h3>
+          <p class="sc-desc" data-i18n="svc5_desc">Sistemas de puntuación y calificación de prospectos impulsados por IA que priorizan a tus clientes de mayor valor.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc6_title">Automatización de Ventas</h3>
+          <p class="sc-desc" data-i18n="svc6_desc">Secuencias de contacto automatizadas, campañas de seguimiento y gestión de embudos que cierran más ventas.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-headset" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc7_title">Soporte al Cliente</h3>
+          <p class="sc-desc" data-i18n="svc7_desc">Sistemas de soporte con IA que resuelven tickets automáticamente, derivando a humanos solo los casos complejos.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-calendar-check" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc8_title">Reserva de Citas</h3>
+          <p class="sc-desc" data-i18n="svc8_desc">Sistemas de reserva completamente automatizados con recordatorios, reprogramación y sincronización de calendarios.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-envelope-open-text" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc9_title">Automatización de Email</h3>
+          <p class="sc-desc" data-i18n="svc9_desc">Campañas de correo personalizadas activadas por comportamiento, potenciadas por copys generados por IA que convierten.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fab fa-whatsapp" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc10_title">Automatización de WhatsApp</h3>
+          <p class="sc-desc" data-i18n="svc10_desc">Flujos automatizados de WhatsApp Business para soporte, ventas, notificaciones y secuencias de bienvenida.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-wand-magic-sparkles" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc11_title">Asistentes de IA a Medida</h3>
+          <p class="sc-desc" data-i18n="svc11_desc">Asistentes de IA personalizados entrenados con tus datos, flujos de trabajo y el tono de tu marca para uso interno o de clientes.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-code-branch" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc12_title">Integración de APIs</h3>
+          <p class="sc-desc" data-i18n="svc12_desc">Integración perfecta entre cualquier herramienta y plataforma, haciendo que todo tu ecosistema digital funcione como uno solo.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-toolbox" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc13_title">Herramientas Internas</h3>
+          <p class="sc-desc" data-i18n="svc13_desc">Dashboards personalizados, herramientas de reporte y aplicaciones internas que optimizan las operaciones de tu equipo.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="sc-icon-wrap"><i class="fas fa-diagram-project" aria-hidden="true"></i></div>
+          <h3 class="sc-title" data-i18n="svc14_title">Optimización de Procesos</h3>
+          <p class="sc-desc" data-i18n="svc14_desc">Evaluamos, rediseñamos y automatizamos flujos de trabajo existentes para eliminar cuellos de botella y maximizar el rendimiento.</p>
+          <div class="sc-arrow"><i class="fas fa-arrow-right"></i></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section id="process" class="section-process section-pad" aria-labelledby="process-title">
+    <div class="container-xl">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="process_label">Cómo Trabajamos</span>
+        <h2 class="section-title" id="process-title" data-i18n-html="process_title">
+          Desde el Diagnóstico hasta la<br>
+          <span class="text-gradient">Optimización Continua</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="process_subtitle">
+          Un proceso probado que entrega sistemas de automatización a tiempo, dentro del presupuesto y listos para escalar.
+        </p>
+      </div>
+
+      <div class="process-timeline">
+
+        <div class="process-line" aria-hidden="true"></div>
+
+        <div class="process-step reveal" data-step="01">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">01</div>
+            <h3 class="ps-title" data-i18n="ps1_title">Diagnóstico</h3>
+            <p class="ps-desc" data-i18n="ps1_desc">Analizamos en profundidad tu negocio, flujos de trabajo y metas para descubrir las oportunidades de automatización de mayor impacto.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal" data-step="02">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">02</div>
+            <h3 class="ps-title" data-i18n="ps2_title">Planificación</h3>
+            <p class="ps-desc" data-i18n="ps2_desc">Creamos una hoja de ruta detallada del proyecto con entregables claros, plazos y métricas de éxito medibles.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal" data-step="03">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">03</div>
+            <h3 class="ps-title" data-i18n="ps3_title">Diseño de Automatización</h3>
+            <p class="ps-desc" data-i18n="ps3_desc">Diseño de arquitectura y sistemas para cada flujo de trabajo, integración y componente de IA en tu ecosistema.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal" data-step="04">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">04</div>
+            <h3 class="ps-title" data-i18n="ps4_title">Desarrollo</h3>
+            <p class="ps-desc" data-i18n="ps4_desc">Construimos y configuramos cada componente utilizando las mejores herramientas del mercado: n8n, Make, OpenAI y código a medida.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal" data-step="05">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">05</div>
+            <h3 class="ps-title" data-i18n="ps5_title">Pruebas</h3>
+            <p class="ps-desc" data-i18n="ps5_desc">Pruebas rigurosas de control de calidad (QA) en todos los escenarios: casos extremos, manejo de errores y condiciones de carga antes de salir a producción.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal" data-step="06">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">06</div>
+            <h3 class="ps-title" data-i18n="ps6_title">Lanzamiento</h3>
+            <p class="ps-desc" data-i18n="ps6_desc">Despliegue sin fricciones con documentación completa de entrega, capacitación y monitoreo durante el periodo crítico de lanzamiento.</p>
+          </div>
+        </div>
+
+        <div class="process-step reveal" data-step="07">
+          <div class="ps-marker">
+            <div class="ps-dot"></div>
+          </div>
+          <div class="ps-content">
+            <div class="ps-number">07</div>
+            <h3 class="ps-title" data-i18n="ps7_title">Optimización Continua</h3>
+            <p class="ps-desc" data-i18n="ps7_desc">Monitoreamos el rendimiento, analizamos resultados y mejoramos continuamente tus automatizaciones a medida que tu negocio evoluciona.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section-projects section-pad" aria-labelledby="projects-title">
+    <div class="container-xl">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="projects_label">Casos de Éxito</span>
+        <h2 class="section-title" id="projects-title" data-i18n-html="projects_title">
+          Automatización que<br>
+          <span class="text-gradient">Genera Impacto Real</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="projects_subtitle">
+          Automatizaciones reales. Resultados reales. Aquí tienes una selección de lo que hemos construido.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="pc-preview pc-preview-1">
+            <div class="pc-preview-ui">
+              <div class="ui-topbar"><span></span><span></span><span></span></div>
+              <div class="ui-chat">
+                <div class="ui-bubble ui-bubble-in" data-i18n="proj1_chat_q">¿Cómo puedo restablecer mi contraseña?</div>
+                <div class="ui-bubble ui-bubble-out"><span data-i18n="proj1_chat_a">Te ayudaré a restablecerla ahora mismo. Revisa tu correo para ver el enlace de recuperación.</span> <span class="ui-typing">●●●</span></div>
+                <div class="ui-bubble ui-bubble-in" data-i18n="proj1_chat_thanks">¡Entendido, gracias!</div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags">
+              <span class="pc-tag">OpenAI</span>
+              <span class="pc-tag">HubSpot</span>
+              <span class="pc-tag">n8n</span>
+            </div>
+            <h3 class="pc-title" data-i18n="proj1_title">Soporte al Cliente con IA</h3>
+            <p class="pc-desc" data-i18n="proj1_desc">Sistema de soporte de IA de extremo a extremo que reemplaza un equipo de soporte de 5 personas en una empresa SaaS. Gestiona tickets, derivaciones y seguimientos proactivos.</p>
+            <div class="pc-impact">
+              <i class="fas fa-arrow-trend-down"></i>
+              <span data-i18n-html="proj1_impact"><strong>80%</strong> de reducción en el tiempo de respuesta</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="pc-preview pc-preview-2">
+            <div class="pc-preview-ui">
+              <div class="ui-topbar"><span></span><span></span><span></span></div>
+              <div class="ui-funnel">
+                <div class="ui-funnel-bar" style="width:100%"><span>1,200 Leads</span></div>
+                <div class="ui-funnel-bar" style="width:72%"><span data-i18n="proj2_funnel_qualified">Calificados</span></div>
+                <div class="ui-funnel-bar" style="width:42%"><span data-i18n="proj2_funnel_contacted">Contactados</span></div>
+                <div class="ui-funnel-bar" style="width:18%"><span data-i18n="proj2_funnel_converted">Convertidos</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags">
+              <span class="pc-tag">Make</span>
+              <span class="pc-tag">HubSpot</span>
+              <span class="pc-tag">OpenAI</span>
+            </div>
+            <h3 class="pc-title" data-i18n="proj2_title">Motor de Automatización de Ventas</h3>
+            <p class="pc-desc" data-i18n="proj2_desc">Calificación de leads por IA, secuencias de contacto automatizadas y gestión de oportunidades de venta (pipeline) en CRM para empresas B2B.</p>
+            <div class="pc-impact">
+              <i class="fas fa-arrow-trend-up"></i>
+              <span data-i18n-html="proj2_impact"><strong>42%</strong> de incremento en leads calificados</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="pc-preview pc-preview-3">
+            <div class="pc-preview-ui">
+              <div class="ui-topbar"><span></span><span></span><span></span></div>
+              <div class="ui-calendar">
+                <div class="ui-cal-header">
+                  <span data-i18n="proj3_cal_month">Junio 2025</span>
+                </div>
+                <div class="ui-cal-grid">
+                  <div class="ui-cal-day booked">9</div>
+                  <div class="ui-cal-day">10</div>
+                  <div class="ui-cal-day booked">11</div>
+                  <div class="ui-cal-day">12</div>
+                  <div class="ui-cal-day booked">13</div>
+                  <div class="ui-cal-day">14</div>
+                  <div class="ui-cal-day booked">16</div>
+                  <div class="ui-cal-day">17</div>
+                  <div class="ui-cal-day booked">18</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags">
+              <span class="pc-tag">Voice AI</span>
+              <span class="pc-tag">Zapier</span>
+              <span class="pc-tag">Google Cal</span>
+            </div>
+            <h3 class="pc-title" data-i18n="proj3_title">Automatización de Reservas</h3>
+            <p class="pc-desc" data-i18n="proj3_desc">Agente de voz con IA que responde llamadas entrantes, califica prospectos y agenda citas directamente en el calendario las 24/7.</p>
+            <div class="pc-impact">
+              <i class="fas fa-clock"></i>
+              <span data-i18n-html="proj3_impact"><strong>15 horas/semana</strong> ahorradas en agendamiento</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="pc-preview pc-preview-4">
+            <div class="pc-preview-ui">
+              <div class="ui-topbar"><span></span><span></span><span></span></div>
+              <div class="ui-doc">
+                <div class="ui-doc-row ui-doc-header"><span data-i18n="proj4_invoice_label">Factura #4821</span><span class="ui-badge-paid" data-i18n="proj4_invoice_paid">PAGADA</span></div>
+                <div class="ui-doc-row"><span data-i18n="proj4_client_label">Cliente</span><span>Acme Corp</span></div>
+                <div class="ui-doc-row"><span data-i18n="proj4_amount_label">Monto</span><span>$12,400</span></div>
+                <div class="ui-doc-row"><span data-i18n="proj4_status_label">Estado</span><span class="ui-status-sent" data-i18n="proj4_auto_sent">Auto-enviado ✓</span></div>
+                <div class="ui-doc-row"><span data-i18n="proj4_reminder_label">Recordatorio</span><span class="ui-status-sent" data-i18n="proj4_scheduled">Programado ✓</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-tags">
+              <span class="pc-tag">Stripe</span>
+              <span class="pc-tag">Airtable</span>
+              <span class="pc-tag">n8n</span>
+            </div>
+            <h3 class="pc-title" data-i18n="proj4_title">Automatización de Facturación</h3>
+            <p class="pc-desc" data-i18n="proj4_desc">Generación automatizada de facturas, envíos, recordatorios de cobro y conciliación de pagos para una firma de consultoría.</p>
+            <div class="pc-impact">
+              <i class="fas fa-arrow-trend-down"></i>
+              <span data-i18n-html="proj4_impact"><strong>90%</strong> de reducción en facturación manual</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY CHOOSE US ===================== -->
+  <section id="why" class="section-why section-pad" aria-labelledby="why-title">
+    <div class="container-xl">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="why_label">Por qué Vertex Project</span>
+        <h2 class="section-title" id="why-title" data-i18n-html="why_title">
+          Construidos Diferente,<br>
+          <span class="text-gradient">Entregamos Mejor</span>
+        </h2>
+      </div>
+
+      <div class="why-grid">
+
+        <div class="why-card reveal">
+          <div class="wc-icon"><i class="fas fa-bolt"></i></div>
+          <h3 class="wc-title" data-i18n="why1_title">Desarrollo Rápido</h3>
+          <p class="wc-desc" data-i18n="why1_desc">La mayoría de los proyectos se lanzan en 2 a 4 semanas. Nos movemos rápido sin comprometer la calidad.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon"><i class="fas fa-fingerprint"></i></div>
+          <h3 class="wc-title" data-i18n="why2_title">Soluciones a Medida</h3>
+          <p class="wc-desc" data-i18n="why2_desc">Sin plantillas. Diseñamos cada sistema desde cero para satisfacer las necesidades específicas de tu negocio.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+          <h3 class="wc-title" data-i18n="why3_title">Sistemas Escalables</h3>
+          <p class="wc-desc" data-i18n="why3_desc">Listos para soportar el crecimiento. Nuestras arquitecturas escalan desde 100 hasta 100,000 operaciones al día.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon"><i class="fas fa-headset"></i></div>
+          <h3 class="wc-title" data-i18n="why4_title">Soporte Confiable</h3>
+          <p class="wc-desc" data-i18n="why4_desc">Soporte dedicado con tiempos de respuesta rápidos, monitoreo proactivo y comunicación transparente.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon"><i class="fas fa-shield-halved"></i></div>
+          <h3 class="wc-title" data-i18n="why5_title">Seguridad Empresarial</h3>
+          <p class="wc-desc" data-i18n="why5_desc">Prácticas alineadas con SOC 2, manejo encriptado de datos y estricta seguridad de APIs en todos los sistemas.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="wc-icon"><i class="fas fa-rocket"></i></div>
+          <h3 class="wc-title" data-i18n="why6_title">Preparados para el Futuro</h3>
+          <p class="wc-desc" data-i18n="why6_desc">Nos mantenemos a la vanguardia de los avances de la IA y actualizamos tus sistemas a medida que la tecnología evoluciona.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section id="testimonials" class="section-testimonials section-pad" aria-labelledby="testimonials-title">
+    <div class="container-xl">
+      <div class="section-header reveal">
+        <span class="section-label" data-i18n="test_label">Resultados de Clientes</span>
+        <h2 class="section-title" id="testimonials-title" data-i18n-html="test_title">
+          La Confianza de Equipos<br>
+          <span class="text-gradient">Que Exigen el Máximo</span>
+        </h2>
+      </div>
+
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card reveal">
+          <div class="tc-stars" aria-label="5 estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <blockquote class="tc-quote" data-i18n="test1_quote">
+            "Vertex Project transformó por completo nuestro soporte al cliente. Su chatbot de IA ahora resuelve el 80% de las consultas de forma automática, ahorrándole a nuestro equipo miles de horas cada trimestre."
+          </blockquote>
+          <div class="tc-author">
+            <div class="tc-avatar" aria-hidden="true">MA</div>
+            <div class="tc-info">
+              <strong>Marco Andersen</strong>
+              <span data-i18n="test1_role">CEO, Nimbus Tech</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="tc-stars" aria-label="5 estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <blockquote class="tc-quote" data-i18n="test2_quote">
+            "La automatización de CRM que construyeron es increíble. Nuestro equipo de ventas ahora se enfoca al 100% en cerrar tratos en lugar de ingresar datos manualmente. La visibilidad de las ventas pasó del caos a la claridad absoluta."
+          </blockquote>
+          <div class="tc-author">
+            <div class="tc-avatar" aria-hidden="true">SR</div>
+            <div class="tc-info">
+              <strong>Sofia Reyes</strong>
+              <span data-i18n="test2_role">Directora de Operaciones, Grupo Nexus</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="tc-stars" aria-label="5 estrellas">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <blockquote class="tc-quote" data-i18n="test3_quote">
+            "El retorno de inversión fue visible desde el primer mes. La automatización de calificación de leads triplicó nuestra tasa de conversión del tráfico entrante. Sin duda, la mejor inversión que hicimos este año."
+          </blockquote>
+          <div class="tc-author">
+            <div class="tc-avatar" aria-hidden="true">JC</div>
+            <div class="tc-info">
+              <strong>James Crawford</strong>
+              <span data-i18n="test3_role">Director de Crecimiento, PulseScale</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section id="faq" class="section-faq section-pad" aria-labelledby="faq-title">
+    <div class="container-xl">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+          <div class="section-header reveal">
+            <span class="section-label">FAQ</span>
+            <h2 class="section-title" id="faq-title" data-i18n-html="faq_title">
+              Preguntas,<br>
+              <span class="text-gradient">Respondidas</span>
+            </h2>
+          </div>
+
+          <div class="faq-list reveal" id="faqAccordion">
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">
+                <span data-i18n="faq1_q">¿Cuánto tiempo toma desarrollar una automatización?</span>
+                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+              </button>
+              <div class="faq-answer" id="faq-1" aria-labelledby="faq-btn-1" role="region">
+                <p data-i18n="faq1_a">La mayoría de los proyectos se completan en un plazo de 2 a 4 semanas desde el inicio. Las automatizaciones más sencillas (un solo flujo de trabajo, 2 o 3 integraciones) suelen tardar entre 1 y 2 semanas. Los sistemas complejos con múltiples componentes de IA e integraciones pueden tardar entre 4 &mdash; 6 semanas. Siempre proporcionamos un cronograma claro antes de empezar.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">
+                <span data-i18n="faq2_q">¿Cuánto cuesta un proyecto de automatización?</span>
+                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+              </button>
+              <div class="faq-answer" id="faq-2" aria-labelledby="faq-btn-2" role="region">
+                <p data-i18n="faq2_a">El precio depende de la complejidad, el número de integraciones y los componentes de IA involucrados. Los proyectos suelen oscilar entre $1,500 para automatizaciones sencillas y más de $15,000 para sistemas de nivel empresarial. Ofrecemos un presupuesto detallado después de la llamada de diagnóstico, sin cargos ocultos.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">
+                <span data-i18n="faq3_q">¿Ofrecen soporte continuo después del lanzamiento?</span>
+                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+              </button>
+              <div class="faq-answer" id="faq-3" aria-labelledby="faq-btn-3" role="region">
+                <p data-i18n="faq3_a">Sí. Todos los proyectos incluyen un periodo de soporte de 30 días posteriores al lanzamiento. Después de eso, ofrecemos planes mensuales de mantenimiento y optimización para mantener tus sistemas funcionando al máximo rendimiento y actualizados según evolucionan las herramientas.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">
+                <span data-i18n="faq4_q">¿Con qué herramientas y plataformas se integran?</span>
+                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+              </button>
+              <div class="faq-answer" id="faq-4" aria-labelledby="faq-btn-4" role="region">
+                <p data-i18n="faq4_a">Nos integramos con prácticamente cualquier plataforma que disponga de una API o webhook. Nuestras integraciones más comunes incluyen OpenAI, Claude, HubSpot, Salesforce, Notion, Airtable, Slack, WhatsApp Business API, Google Workspace, Stripe, Supabase y más. Si tiene una API, podemos conectarla.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-5" id="faq-btn-5">
+                <span data-i18n="faq5_q">¿Pueden desarrollar soluciones de IA completamente a medida?</span>
+                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+              </button>
+              <div class="faq-answer" id="faq-5" aria-labelledby="faq-btn-5" role="region">
+                <p data-i18n="faq5_a">Absolutamente. Más allá de herramientas no-code como n8n y Make, desarrollamos agentes de IA totalmente personalizados, sistemas RAG (Generación Aumentada por Recuperación) y soluciones basadas en APIs usando Python y Node.js. Si tu caso de uso requiere ir más allá de las herramientas comerciales, tenemos la capacidad de ingeniería para construirlo desde cero.</p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" aria-expanded="false" aria-controls="faq-6" id="faq-btn-6">
+                <span data-i18n="faq6_q">¿Cómo garantizan la seguridad de los datos de mi negocio?</span>
+                <div class="faq-icon"><i class="fas fa-plus"></i></div>
+              </button>
+              <div class="faq-answer" id="faq-6" aria-labelledby="faq-btn-6" role="region">
+                <p data-i18n="faq6_a">La seguridad está integrada en cada sistema que diseñamos. Utilizamos conexiones API cifradas, variables de entorno para las credenciales, el principio de mínimo privilegio para todas las integraciones y nunca almacenamos datos confidenciales más allá de lo estrictamente necesario para la operación. Todos los sistemas se despliegan en infraestructura en la nube segura con controles de acceso adecuados.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section-contact section-pad" aria-labelledby="contact-title">
+    <div class="container-xl">
+
+      <div class="contact-headline reveal">
+        <span class="section-label" data-i18n="contact_label">Comencemos</span>
+        <h2 class="section-title contact-title" id="contact-title" data-i18n-html="contact_title">
+          Construyamos tu<br>
+          <span class="text-gradient">Próxima Automatización</span>
+        </h2>
+        <p class="section-subtitle" data-i18n="contact_subtitle">
+          Cuéntanos sobre tu negocio y agendaremos una llamada de diagnóstico gratuita de 30 minutos.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Formulario de contacto">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name" data-i18n-html="form_label_name">Nombre Completo <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Juan García" required autocomplete="name" data-i18n-placeholder="form_ph_name">
+              </div>
+              <div class="form-group">
+                <label for="company" data-i18n="form_label_company">Empresa</label>
+                <input type="text" id="company" name="company" class="form-control" placeholder="Acme Corp" autocomplete="organization" data-i18n-placeholder="form_ph_company">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email" data-i18n-html="form_label_email">Correo Electrónico <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="juan@empresa.com" required autocomplete="email" data-i18n-placeholder="form_ph_email">
+              </div>
+              <div class="form-group">
+                <label for="phone" data-i18n="form_label_phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="+54 9 11 0000-0000" autocomplete="tel" data-i18n-placeholder="form_ph_phone">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message" data-i18n-html="form_label_message">Cuéntanos sobre tu proyecto <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" class="form-control" rows="5" placeholder="Describí las tareas repetitivas, procesos o flujos de trabajo que querés automatizar..." required data-i18n-placeholder="form_ph_message"></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary btn-form-submit" aria-label="Enviar mensaje y agendar llamada" data-i18n-html="form_submit">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>
+              Enviar Mensaje
+            </button>
+
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite">
+              <i class="fas fa-check-circle"></i>
+              <span data-i18n="form_success">¡Mensaje enviado! Nos pondremos en contacto contigo en menos de 24 horas.</span>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal reveal-right">
+
+          <div class="contact-logo-wrap">
+            <img src="Logo_Vertex.png" alt="Vertex Project Logo" class="contact-logo">
+            <div class="contact-brand">
+              <strong>Vertex Project</strong>
+              <span data-i18n="contact_brand_sub">Agencia de Automatización con IA</span>
+            </div>
+          </div>
+
+          <div class="contact-details">
+            <a href="mailto:info.vertex.project@gmail.com" class="contact-detail-item" aria-label="Envíanos un correo electrónico">
+              <div class="cdi-icon"><i class="fas fa-envelope"></i></div>
+              <div class="cdi-text">
+                <span data-i18n="contact_email_label">Correo electrónico</span>
+                <strong>info.vertex.project@gmail.com</strong>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-socials">
+            <p class="socials-label" data-i18n="contact_socials_label">Encuéntranos en</p>
+            <div class="socials-row">
+              <a href="#" class="social-btn" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-btn" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-btn" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-availability">
+            <div class="avail-dot" aria-hidden="true"></div>
+            <span data-i18n="contact_avail">Disponible para nuevos proyectos</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container-xl">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#hero" class="footer-logo" aria-label="Vertex Project">
+            <img src="Logo_Vertex.png" alt="" aria-hidden="true">
+            <span>Vertex Project</span>
+          </a>
+          <p class="footer-tagline" data-i18n="footer_tagline">Sistemas de automatización inteligentes para empresas que buscan crecer en serio.</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4 data-i18n="footer_col_services">Servicios</h4>
+            <ul>
+              <li><a href="#services" data-i18n="footer_link_chatbots">Chatbots de IA</a></li>
+              <li><a href="#services" data-i18n="footer_link_voice">Agentes de Voz con IA</a></li>
+              <li><a href="#services" data-i18n="footer_link_crm">Automatización de CRM</a></li>
+              <li><a href="#services" data-i18n="footer_link_sales">Automatización de Ventas</a></li>
+              <li><a href="#services" data-i18n="footer_link_api">Integración de APIs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer_col_company">Compañía</h4>
+            <ul>
+              <li><a href="#about" data-i18n="footer_link_about">Sobre Nosotros</a></li>
+              <li><a href="#process" data-i18n="footer_link_process">Proceso</a></li>
+              <li><a href="#projects" data-i18n="footer_link_projects">Proyectos</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact" data-i18n="footer_link_contact">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4 data-i18n="footer_col_contact">Contacto</h4>
+            <ul>
+              <li><a href="mailto:info.vertex.project@gmail.com">info.vertex.project@gmail.com</a></li>
+            </ul>
+            <div class="footer-socials">
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n-html="footer_copy">&copy; <span id="year"></span> Vertex Project. Todos los derechos reservados.</p>
+        <p class="footer-made" data-i18n="footer_made">Agencia de Automatización con IA</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
