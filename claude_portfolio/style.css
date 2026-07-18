@@ -1613,3 +1613,9 @@ h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 700; line-height: 1
 .lang-btn:hover:not(.active) {
   color: var(--text-primary);
 }
+
+@media (max-width: 991px) {
+  .navbar > .container-xl {
+    flex-wrap: nowrap !important;
+  }
+}
